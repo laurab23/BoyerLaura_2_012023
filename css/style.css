@@ -104,7 +104,132 @@ p {
 	line-height: 17px;
 	color: var(--drak-grey-color);
 }
+.couleurmembres
+{
+position: absolute;
+width: 464px;
+height: 38px;
+left: 491px;
+top: 1350px;
+font-family: 'Archivo'
+font-style: normal;
+font-weight: 900;
+font-size: 35px;
+line-height: 38px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF
+}
 
+.membres
+{
+width: 1440px;
+height: 596px;
+left: 0px;
+top: 1271px;
+background: linear-gradient(88.28deg, #E44444 0%, #CD487C 77.13%);
+}
+
+.soraya
+{
+width: 66px;
+height: 22px;
+left: 445px;
+top: 1743px;
+font-family: 'Archivo'
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+
+.longboard
+{
+width: 77px;
+height: 17px;
+left: 440px;
+top: 1770px;
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 400px;
+font-size: 16px;
+line-height: 17px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+} 
+
+.marc
+{
+width: 46px;
+height: 22px;
+left: 697px;
+top: 1743px;
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+.street
+{
+width: 43px;
+height: 17px;
+left: 699px;
+top: 1770px;
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 17px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+
+.pedro
+{
+width: 56px;
+height: 22px;
+left: 933px;
+top: 1743px;
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+.pool
+{
+width: 33px;
+height: 17px;
+left: 645px;
+top: 1770px;
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 17px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
 
 /***************/
 .directionRow {
