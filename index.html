@@ -1,405 +1,75 @@
 <!DOCTYPE html>
 <html lang="fr">
-	<head>
-		<meta charset="utf-8">
-		<style>
-		/*GENERAL*/
-:root {
-  --main-color: #E44444; /* var(--main-color) */
-  --second-color: #CD487B; /* var(--second-color) */
-  --light-grey-color: #EDEDED; /* var(--light-grey-color) */
-  --drak-grey-color: #4B4B4B; /* var(--drak-grey-color) */
-}
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;800;900&family=Inter:wght@900&display=swap" rel="stylesheet">
+	<title>Riding Cities</title>
+</head>
 
-body {
-	margin: 0;
-	display: flex;
-	justify-content: center;
-}
-
-.container {
-	min-width: 992px;
-	max-width: 1440px;
-}
-
-h2, 
-h3 {
-	font-family: 'Archivo', sans-serif;
-	font-style: normal;
-}
-
-h2 {
-	text-align: center;
-}
-
-
-/*HEADER*/
-header {
-	position: relative;
-	width: 100%;
-	height: 880px;
-}
-
-header img,
-header .headerTextContent {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-}
-
-header img {
-	object-fit: cover;
-}
-
-header .headerTextContent {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-h1 {
-	font-family: 'Inter', sans-serif;
-	font-style: normal;
-	font-weight: 900;
-	font-size: 62px;
-	line-height: 75px;
-	color: white;
-}
-
-
-
-/*CONTENT*/
-section {
-	padding-bottom: 80px;
-	padding-top: 80px;
-}
-
-h2
-{
-	font-weight: 900;
-	font-size: 35px;
-	line-height: 38px;
-	color: var(--main-color);
-	padding-bottom: 40px;
-	margin-top: 0;
-}
-
-h3 {
-	font-weight: 800;
-	font-size: 25px;
-	line-height: 27px;
-	color: black;
-	margin-bottom: 0;
-}
-.rectanglerouge
-{
-position: absolute
-width: 1440px;
-height: 596px;
-left: 0px;
-top: 1271px;
-background: linear-gradient(88.28deg, #E44444 0%, #CD487C 77.13%);
-display: flex;
-}
-.membresf
-{
-position: absolute;
-width: 464px;
-height: 38px;
-left: 491px;
-top: 1350px;
-font-family: 'Archivo'
-font-style: normal;
-font-weight: 900;
-font-size: 35px;
-line-height: 38px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #FFFFFF;
-}
-
-.imgsoraya
-{
-position: absolute;
-width: 194px;
-height: 262px;
-left: 381px;
-top: 1461px;
-display: flex;
-}
-.soraya
-{
-position: absolute;
-width: 66px;
-height: 22px;
-left: 445px;
-top: 1743px;
-font-family: 'Archivo';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 22px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #FFFFFF;
-}
-.longboard
-{
-position: absolute;
-width: 77px;
-height: 17px;
-left: 440px;
-top: 1770px;
-font-family: 'Archivo';
-font-style: normal;
-font-weight: 400px;
-font-size: 16px;
-line-height: 17px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #FFFFFF;
-} 
-.imgmarc
-{
-position: absolute;
-width: 194px;
-height: 262px;
-left: 623px;
-top: 1461px;
-display: flex; 
-}
-
-.marc
-{
-position: absolute;
-width: 46px;
-height: 22px;
-left: 697px;
-top: 1743px;
-font-family: 'Archivo';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 22px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #FFFFFF;
-}
-.street
-{
-position: absolute;
-width: 43px;
-height: 17px;
-left: 699px;
-top: 1770px;
-font-family: 'Archivo';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 17px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #FFFFFF;
-}
-
-.imgpedro
-{
-position: absolute;
-display: flex;
-width: 194px;
-height: 262px;
-left: 865px;
-top: 1461px;
-}
-.pedro
-{
-position: absolute;
-width: 56px;
-height: 22px;
-left: 933px;
-top: 1743px;
-font-family: 'Archivo';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 22px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #FFFFFF;
-}
-.pool
-{
-position: absolute;
-width: 33px;
-height: 17px;
-left: 945px;
-top: 1770px;
-font-family: 'Archivo';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 17px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #FFFFFF;
-}
-
-article {
-	width: 15%;
-	margin: 0px 20px;
-	display: flex;
-	flex-direction: column;
-}
-
-p {
-	font-family: 'Archivo';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 17px;
-	color: var(--drak-grey-color);
-}
-
-
-/***************/
-.directionRow {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-}
-
-.directionColumn {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.sectionLinearGradientBackground {
-	background: linear-gradient(to right, var(--main-color), var(--second-color));
-}
-
-.whiteContentSection h2,
-.whiteContentSection h3,
-.whiteContentSection p {
-	color:  white;
-}
-
-.textCenter {
-	text-align: center;
-}
-
-/***************/
-.sectionLightGreyBackground {
-	background-color: var(--light-grey-color);
-}
-
-.button {
-	margin: 20px 0px;
-	padding: 28px 40px;
-	background-color: white;
-	border-style: solid;
-	border-width: 2px;
-	border-radius: 5px;
-	box-sizing: border-box;
-	font-family: 'Archivo';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 16px;
-	line-height: 17px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	text-decoration: none;
-}
-.buttonDrakGreyColor {
-	color: var(--drak-grey-color);
-	border-color: var(--drak-grey-color);
-}
-.buttonMainColor {
-	color: var(--main-color);
-	border-color: var(--main-color);
-}
-.buttonSecondColor {
-	color: var(--second-color);
-	border-color: var(--second-color);
-}
-.buttonRounded {
-	border-radius: 39px;
-}
-.buttonHighlight:hover {
-	font-weight: 800;
-	border-width: 3px;}
-</style>	
-		<title>Riding Cities</title>
-	</head>
-	<body>
-		<div class="container">
-			<header>
-				<img src="images/header.png" alt="skateboard sur un sol goudronné">
-				<div class="headerTextContent">
-					<h1>RIDING CITIES</h1>
+<body>
+	<div class="container">
+		<header>
+			<img src="images/header.png" alt="skateboard sur un sol goudronné">
+			<div class="headerTextContent">
+				<h1>RIDING CITIES</h1>
+			</div>
+		</header>
+		<main> <!--contenu majoritaire du body-->
+			<section>
+				<h2>La mission de l'asso</h2>
+				<div class="directionRow">
+					<article>
+						<h3>Promouvoir</h3>
+						<p>L'asso regroupe des passionnés de glisse et plus particulièrement de skateboard qui œuvrent
+							pour la promotion de ce sport au niveau régional.</p>
+					</article>
+					<article>
+						<h3>Transmettre</h3>
+						<p>Nous proposons des cours pour enfants, ados et adultes. Nous intervenons également dans les
+							écoles pour faire découvrir le skate aux plus jeunes.</p>
+					</article>
+					<article>
+						<h3>Entraîner</h3>
+						<p>Nous accompagnons nos membres sur les compétitions en les préparant physiquement à donner le
+							meilleur d'eux-mêmes.</p>
+					</article>
+					<article>
+						<h3>Fédérer</h3>
+						<p>L'asso organise tout au long de l'année des évènements autour du skate pour réunir toujours
+							plus de monde autour de cette pratique.</p>
+					</article>
 				</div>
-			</header>
-			<main> <!--contenu majoritaire du body-->
-				<section>
-					<h2>La mission de l'asso</h2>
-					<div class="directionRow">
-						<article>
-							<h3>Promouvoir</h3>
-							<p>L'asso regroupe des passionnés de glisse et plus particulièrement de skateboard qui œuvrent pour la promotion de ce sport au niveau régional.</p>
-						</article>
-						<article>
-							<h3>Transmettre</h3>
-							<p>Nous proposons des cours pour enfants, ados et adultes. Nous intervenons également dans les écoles pour faire découvrir le skate aux plus jeunes.</p>
-						</article>
-						<article>
-							<h3>Entraîner</h3>
-							<p>Nous accompagnons nos membres sur les compétitions en les préparant physiquement à donner le meilleur d'eux-mêmes.</p>
-						</article>
-						<article>
-							<h3>Fédérer</h3>
-							<p>L'asso organise tout au long de l'année des évènements autour du skate pour réunir toujours plus de monde autour de cette pratique.</p>
-						</article>
-					</div>
-				</section>
-				<section div class="rectanglerouge">
-						<h2 div class="membresf">Les membres fondateurs</h2>
-						<div class="directionRow">
-						<article>
-					<div class="imgsoraya">
-					<img src="images/soraya.png" alt="Soraya la passionnée"/>	
-							<h3 div class="soraya">Soraya</h3>
-							<p div class="longboard">Longboard</p>
-						</article>
-						<article>
-					<div class="imgmarc">
-					<img src="images/marc.png" alt="Marc l'homme de terrain"/>
-							<h3 div class="marc">Marc</h3>
-							<p div class="street">Street</p>
-						</article>
-						<article>		
-					<div class="imgpedro">
-					<img src="images/pedro.png" alt="Pedro expert"/>	
-							<h3 div class="pedro">Pedro</h3>
-							<p div class="pool">Pool</p>
-						</article>
-					</div>
-				</section>
-				<section>
-					<div class="directionRow">
-						<a class="button buttonDrakGreyColor" href="documents/planning">Télécharger le planning de cours</a>
-					</div>
-				</section>
-			</main>
-		</div>
-	</body>
+			</section>
+			<section  class="sectionLinearGradientBackground whiteContentSection" >
+				<h2>Les membres fondateurs</h2>
+				<div class="directionRow">
+					<article  class="textCenter">
+							<img src="images/soraya.png" alt="Soraya la passionnée" />
+							<h3>Soraya</h3>
+							<p>Longboard</p>
+					</article>
+					<article class="textCenter">
+							<img src="images/marc.png" alt="Marc l'homme de terrain" />
+							<h3>Marc</h3>
+							<p>Street</p>
+					</article>
+					<article class="textCenter">
+							<img src="images/pedro.png" alt="Pedro expert" />
+							<h3>Pedro</h3>
+							<p>Pool</p>
+					</article>
+				</div>
+			</section>
+			<section>
+				<div class="directionRow">
+					<a class="button buttonDrakGreyColor" href="documents/planning">Télécharger le planning de cours</a>
+				</div>
+			</section>
+		</main>
+	</div>
+</body>
 </htm>
